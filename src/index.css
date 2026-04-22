@@ -237,15 +237,8 @@ button { cursor: none; font-family: inherit; }
     box-shadow: 0 8px 24px rgba(26,26,46,0.08);
   }
   .nav-links.open { display: flex; }
-  .nav-link {
-    font-size: 0.95rem; padding: 12px 16px;
-    border-radius: 10px; text-align: left;
-  }
-  .nav-cta {
-    font-size: 0.875rem; padding: 12px 16px;
-    border-radius: 10px; justify-content: center;
-    margin-top: 4px;
-  }
+  .nav-link { font-size: 0.95rem; padding: 12px 16px; border-radius: 10px; text-align: left; }
+  .nav-cta { font-size: 0.875rem; padding: 12px 16px; border-radius: 10px; justify-content: center; margin-top: 4px; }
 }
 
 /* ╔══════════════════════════════════════════════╗
