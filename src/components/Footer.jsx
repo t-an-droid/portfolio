@@ -57,7 +57,7 @@ export default function Footer() {
             <button className="footer-link" onClick={() => scrollTo('about')} style={{background:'none',border:'none',padding:0,textAlign:'left'}}>About Me</button>
             <button className="footer-link" onClick={() => scrollTo('research')} style={{background:'none',border:'none',padding:0,textAlign:'left'}}>Research Interests</button>
             <button className="footer-link" onClick={() => scrollTo('skills')} style={{background:'none',border:'none',padding:0,textAlign:'left'}}>Skills</button>
-            <a className="footer-link" onClick={() => navigate('/projects')}>Projects</a>
+            <a className="footer-link" onClick={() => { navigate('/projects'); window.scrollTo({top:0}); }}>Projects</a>
             <a className="footer-link" href="/resume.pdf" target="_blank" rel="noopener noreferrer">View Resume</a>
             <a className="footer-link" href="mailto:tanviborkar06@gmail.com">Say Hello</a>
           </div>
