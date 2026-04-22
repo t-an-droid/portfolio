@@ -257,6 +257,7 @@ button { cursor: none; font-family: inherit; }
    ║              HERO                             ║
    ╚══════════════════════════════════════════════╝ */
 .hero {
+  scroll-margin-top: 80px;
   min-height: calc(100vh - 68px);
   display: flex; align-items: center;
   padding: 5rem 0 3rem;
